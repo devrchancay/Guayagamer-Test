@@ -1,0 +1,17 @@
+{
+  "name": "olimpo-sistema",
+  "version": "1.0.0",
+  "description": "Sistema para olimpologistics.com",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "client:dev": "cd packages/client && npm run start",
+    "client:build": "cd packages/client && npm run build",
+    "server:dev": "cd packages/server && npm run dev",
+    "client:storybook": "cd packages/client && npm run storybook",
+    "docs:dev": "cd packages/documents && npm run start"
+  },
+  "devDependencies": {
+    "lerna": "^2.10.2"
+  }
+}
